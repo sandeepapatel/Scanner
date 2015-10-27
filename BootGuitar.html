@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guitar Anniversary Sale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="CSS/ExternalStyle.css">
+  <script src="JS/Guitar.js"></script>
+</head>
+<body onload="myOnload()">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Guitar</a></li>
+        <li><a href="#">Bazz</a></li>
+        <li><a href="#">Drums</a></li>
+        <li><a href="#">Keyboard</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  	<img id="idImage" src="images/main.jpg" class="img-responsive" class="img-rounded" alt="Cinque Terre" width="100%" height="100%">
+  </div>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-2">
+  	<button type="button" class="btn btn-default" onclick="ChangeImage('PREV')">Previous</button>
+  </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-2"></div>
+	<button type="button" class="btn btn-primary" onclick="ChangeImage('NEXT')">Next</button>
+  </div>
+  <div class="col-sm-2"></div>
+</div>	
+
+<div class="container-fluid">
+ 	<div class="row">
+  		<div class="col-sm-3"></div>
+  		<div class="col-sm-6">
+			<P>Product Information</P>
+  			<p id="idProduct"> </p>
+  		</div>
+  		<div class="col-sm-3"></div>
+	</div>
+</div>
+
+<div class="container-fluid">
+ 	<div class="row">
+  		<div class="col-sm-3"></div>
+  		<div class="col-sm-6">
+			<P>Shipping Information</P>  
+  			<p id="idShipping"> </p>
+  		</div>
+  		<div class="col-sm-3"></div>
+	</div>
+</div>
+
+<div class="container-fluid">
+ 	<div class="row">
+  		<div class="col-sm-3"></div>
+  		<div class="col-sm-6">
+			<P>Customer Review</P>
+  			<p id="idReview"> </p>
+  		</div>
+  		<div class="col-sm-3"></div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-8"></div>
+  		<div class="col-sm-2">
+  			<button type="button" class="btn btn-default" onclick="btnBuy()">Buy</button>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</div>
+
+</body>
+
+</html>

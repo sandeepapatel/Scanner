@@ -1,0 +1,111 @@
+body{
+	background-color:#F8F8FF;
+}
+
+#xyz {
+	background-color:#00ff00;
+}
+
+#abc {
+	background-color:#8080ff;
+}
+
+
+/*#idImage {
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+    M11=0.9659258262, M12=-0.2588190451,
+    M21=0.2588190451, M22=0.9659258262);
+} */
+
+#NavDiv {
+    height:30px;
+    width:1200px;
+	top:20px;
+	left:83px;
+	/*background-color:#00ff00;*/
+}
+
+/* 1366x768 */
+
+#FirstList {
+    overflow: hidden;
+	margin: 0;
+    padding: 0;
+	width:1200px;
+	height:30px;
+}
+
+#FirstList li {
+    width:600px;
+    height:30px;
+    float:left;
+    list-style:none;
+    display:inline;
+	blackground-color:blue;
+    text-decoration:none;
+}
+#FirstList li a {
+    text-decoration:none;
+    display: block;
+    /* width:60px; */
+}
+
+#FirstList a:link, a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #DCDCDC;
+    text-align: center;
+   /* padding: 10px;*/
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#FirstList a:hover, a:active {
+    background-color: #4B0082;
+}
+
+#GuitarDiv {
+    position:absolute;
+    height:300px;
+    width:600px;
+	top:60px;
+	left:383px;
+	background-color: #ff8000
+}
+
+#GuitarButton {
+    position:absolute;
+    height:30px;
+    width:600px;
+	top:360px;
+	left:383px;
+	background-color: #808040
+}
+
+#GuitarInfo {
+    position:absolute;
+	top:400px;
+	left:383px;
+    width:600px;
+    height:300px;
+	background-color: #ff0000 ;
+}
+
+#GuitarInfo .InfoClass {
+    position:relative;
+    height:100px;
+    width:600px;
+	background-color: #808040;
+	/*display:inline;*/
+}
+
+#GuitarBuy {
+    position:absolute;
+	top:600px;
+	left:383px;
+    height:30px;
+	width:600px;
+	background-color: #ff0000 ;
+}

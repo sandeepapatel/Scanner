@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guitar Anniversary Sale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="CSS/ExternalStyle.css">
+  <script src="JS/Guitar.js"></script>
+</head>
+<body onload="myOnload_3()">
+<br/>
+<br/>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+  				<img id="idImage" src="images/main.jpg" class="img-responsive" class="img-rounded" alt="Cinque Terre" width="100%" height="100%">
+  			</div>
+		<div class="col-sm-4">
+			<P>Product Information</P>  
+			<p id="idProduct"> </p>
+		</div>
+	</div>
+</div>
+<br/>
+
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+	<h3>CONFIRMATION</h3>
+	<form class="form-horizontal" role="form" id="idDispReview">
+		<div class="form-group">
+   			<label class="control-label col-sm-3" for="dispFN">First Name :</label>
+			<div class="col-sm-8">
+  				<p id="dispFN"></p>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-3" for="dispLN">Last Name :</label>
+    		<div class="col-sm-8"> 
+    	  		<p id="dispLN"></p>
+    		</div>
+  		</div>
+
+  		<div class="form-group">
+    		<label class="control-label col-sm-3" for="dispCC">Credit Card :</label>
+    		<div class="col-sm-8"> 
+    			<p id="dispCC"></p>
+    		</div>
+  		</div>
+
+  		<div class="form-group">
+    		<label class="control-label col-sm-3" for="dispCVV">CVV :</label>
+    		<div class="col-sm-8">
+    			<p id="dispCVV"></p>
+    		</div>
+		</div>
+  			
+  		<div class="form-group"> 
+    		<div class="col-sm-offset-6 col-sm-10">
+   				<button type="button" class="btn btn-default" onclick="btnHome()">Go to Home</button>
+   			</div>
+		</div>
+	</form>
+</div>
+<div class="col-sm-2"></div>
+
+</body>
+
+</html>
