@@ -3,3 +3,5 @@ This is for guitar - to add description about project.
 We need to create readme file
 
 add contains to this file.....
+
+I am looking to add something about Guitar here
