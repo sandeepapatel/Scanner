@@ -1,1 +1,5 @@
-This is for guitar - to add description about project
+This is for guitar - to add description about project. 
+
+We need to create readme file
+
+add contains to this file.....
